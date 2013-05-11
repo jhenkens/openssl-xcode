@@ -31,9 +31,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9069D28B0FCE659A0042E34C /* crypto */ = {
+		9069D28B0FCE659A0042E34C /* crypto_ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9069D2980FCE65C10042E34C /* Build configuration list for PBXNativeTarget "crypto" */;
+			buildConfigurationList = 9069D2980FCE65C10042E34C /* Build configuration list for PBXNativeTarget "crypto_ios" */;
 			buildPhases = (
 				9038ACD812DCAC96004FA0D0 /* ShellScript */,
 			);
@@ -41,14 +41,14 @@
 			);
 			dependencies = (
 			);
-			name = crypto;
+			name = crypto_ios;
 			productName = crypto;
 			productReference = 9069D28C0FCE659A0042E34C /* libcrypto.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		D4ACDC33173EE3FC002E1EC6 /* crypto_ios */ = {
+		D4ACDC33173EE3FC002E1EC6 /* crypto_osx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4ACDC35173EE3FC002E1EC6 /* Build configuration list for PBXNativeTarget "crypto_ios" */;
+			buildConfigurationList = D4ACDC35173EE3FC002E1EC6 /* Build configuration list for PBXNativeTarget "crypto_osx" */;
 			buildPhases = (
 				D4ACDC34173EE3FC002E1EC6 /* ShellScript */,
 			);
@@ -56,7 +56,7 @@
 			);
 			dependencies = (
 			);
-			name = crypto_ios;
+			name = crypto_osx;
 			productName = crypto;
 			productReference = D4ACDC38173EE3FC002E1EC6 /* libcrypto.a */;
 			productType = "com.apple.product-type.library.static";
@@ -83,8 +83,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9069D28B0FCE659A0042E34C /* crypto */,
-				D4ACDC33173EE3FC002E1EC6 /* crypto_ios */,
+				9069D28B0FCE659A0042E34C /* crypto_ios */,
+				D4ACDC33173EE3FC002E1EC6 /* crypto_osx */,
 			);
 		};
 /* End PBXProject section */
@@ -230,7 +230,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9069D2980FCE65C10042E34C /* Build configuration list for PBXNativeTarget "crypto" */ = {
+		9069D2980FCE65C10042E34C /* Build configuration list for PBXNativeTarget "crypto_ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9069D28D0FCE659B0042E34C /* Debug */,
@@ -239,7 +239,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4ACDC35173EE3FC002E1EC6 /* Build configuration list for PBXNativeTarget "crypto_ios" */ = {
+		D4ACDC35173EE3FC002E1EC6 /* Build configuration list for PBXNativeTarget "crypto_osx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4ACDC36173EE3FC002E1EC6 /* Debug */,
